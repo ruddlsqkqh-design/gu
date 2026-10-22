@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# KPC Local Storage (대용량/임시 산출물)
+storage/originals/
+storage/ocr_results/
+storage/chroma_db/
+storage/bm25/
+storage/test_*
+storage/reviews.jsonl
+*.pkl
+
+# Secrets & Config
+.env
+*.pem
+*.key
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
